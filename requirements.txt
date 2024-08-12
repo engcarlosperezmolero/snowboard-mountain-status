@@ -1,0 +1,7 @@
+pandas
+beautifulsoup4
+requests
+python-telegram-bot
+asyncio
+matplotlib
+lxml
