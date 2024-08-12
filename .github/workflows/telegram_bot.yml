@@ -1,4 +1,4 @@
-zname: Enviar datos a Telegram cada 4 horas
+name: Enviar Parte Cerro Laderas cada 4 horas
 
 on:
   schedule:
