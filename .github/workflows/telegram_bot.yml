@@ -27,6 +27,6 @@ jobs:
 
     - name: Run scraper and send to Telegram
       env:
-        BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-        CHAT_ID: ${{ secrets.CHAT_ID }}
+        CHAT_ID_TELEGRAM: ${{ secrets.CHAT_ID_TELEGRAM }}
+        TOKEN_TELEGRAM_BOT: ${{ secrets.TOKEN_TELEGRAM_BOT }}
       run: python3 scraper_cerro_laderas.py
