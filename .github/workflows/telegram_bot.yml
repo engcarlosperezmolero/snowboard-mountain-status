@@ -1,9 +1,6 @@
 name: Enviar Parte Cerro Laderas cada 4 horas
 
 on:
-  schedule:
-    - cron: '0 */4 * * *'
-
   workflow_dispatch:
 
 
